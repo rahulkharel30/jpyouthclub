@@ -1,0 +1,32 @@
+body{
+	text-align: center;
+	font-family: "Montserrat";
+}
+
+h1{
+	text-decoration: underline;
+	font-weight: 900;
+	font-size: 4rem;
+	padding-bottom: 1.5rem;
+
+}
+.images{
+	height: 50%;
+	width: 50%;
+}
+.bloods{
+	background-color: #c1d1c3;
+}
+.honoring{
+	background-color: #4ecca3;
+}
+.education{
+	background-color: #f1d18a;
+}
+.food{
+	background-color: #d4ed9d;
+}
+
+.container-fluid{
+	padding: 0;
+}
