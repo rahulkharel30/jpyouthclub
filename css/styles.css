@@ -71,6 +71,10 @@ p{
 #my-carousel{
     text-align: center;
 }
+.batan{
+     background-color: dimgray;
+}
+
 .cont{
     background-color: black;
 }
@@ -93,7 +97,4 @@ hr{
 .fonticon{
     margin: 1.5rem 1rem;
     color: black;
-}
-.batan{
-     border: solid 1px black;
 }
