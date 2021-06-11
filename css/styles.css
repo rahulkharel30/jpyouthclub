@@ -1,12 +1,11 @@
 body{
-
 }
 h1,h2,h3,h4,h5,h6{
-    font-family: 'Montserrat', sans-serif;
-    color: #211717;
+    font-family: 'DM Serif Display', serif;
+    color: #424642;
 }
 p{
-    font-family: Ubuntu;
+    font-family: 'Fira Sans', sans-serif;
     color: dimgrey;
     line-height: 1.5;
 }
@@ -20,11 +19,11 @@ p{
     height: 100px;
 }
 .navigation-bar{
-    background-color: #f0e4d7 ;
+    background-color: #fff5eb/*#f0e4d7*/ ;
     padding: 0 1rem;
-    font-family: "Merriweather";
+    font-family: 'Fira Sans', sans-serif;
     text-align: center;
-    }
+}
 .navbar-nav{
     margin-left: auto;
 }
@@ -34,7 +33,8 @@ p{
 /*Title Section*/
 #title{
     text-align: center;
-    background-color: #f0e4d7 ;
+    background-color: #deedf0/*#f0e4d7*/ ;
+    padding: 7rem;
     padding: 9% 18%;
 }
 .jp-image{
@@ -47,13 +47,13 @@ p{
     font-size: 2rem;
 }
 .jp-paragraph{
-    font-family: "Ubuntu";
+    font-family: 'Fira Sans', sans-serif;
     font-size: 1.2rem;
     margin: 3% 0;
 }
 /*About Section*/
 #about{
-    background-color: #dbf6e9;
+    background-color: #f4c7ab/*#dbf6e9*/;
     padding: 1% 15% 3%;
 
 }
@@ -72,19 +72,18 @@ p{
 #my-carousel{
     text-align: center;
 }
-.batan{
-     background-color: dimgray;
-}
-
 .cont{
     background-color: black;
 }
 #membership{
-    background-color: #b68973;
-    padding: 7% 5%;
+    background-color: #b2b8a3/*#b68973*/;
+    padding: 5% 7%;
 }
 hr{
     margin: 0;
+}
+.horizontal-rule{
+    border-style: inset none none;
 }
 .why-join{
     padding-bottom: 0;
@@ -93,9 +92,20 @@ hr{
 /*Footer Section*/
 #footer{
     text-align: center;
-    padding: 7% 15%;
+    padding: 2%;
+    background-color:#cc9b6d;
 }
 .fonticon{
     margin: 1.5rem 1rem;
     color: black;
+}
+.batan{
+    background-color: dimgray;
+}
+@media (max-width: 700px){
+    #title{
+        padding: 4% 9%;
+    }
+    #about{
+        padding:  1% 7% 1.5%;
 }
