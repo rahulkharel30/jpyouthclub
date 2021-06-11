@@ -24,11 +24,11 @@ p{
     font-family: 'Fira Sans', sans-serif;
     text-align: center;
 }
-.navbar-nav{
+.navbar-nav1{
     margin-left: auto;
 }
 .nav-link{
-    margin: 0% 2rem;
+    margin: 0 2rem;
 }
 /*Title Section*/
 #title{
@@ -119,4 +119,13 @@ hr{
     .jp-image{
         height: 50%;
         width: 50%;
+    }
+     .brand-image{
+         height: 50px;
+         width: 50px;
+    }
+     .nav-link{
+         padding: 0 1.2rem;
+         
+     }
 }
