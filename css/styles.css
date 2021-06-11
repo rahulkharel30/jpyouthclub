@@ -104,16 +104,19 @@ hr{
 }
 @media (max-width: 700px){
     #title{
-        padding: 4% 4%;
+        padding: 8%% 4%;
     }
     #about{
-        padding:  1% 4% 1.5%;
+        padding:  8% 4% 1.5%;
     }
     #membership{
-        padding: 4% 4%;
+        padding: 8% 4%;
 
     }
     #footer{
         padding: 1% 4%;
     }
+    .jp-image{
+        height: 50%;
+        width: 50%;
 }
