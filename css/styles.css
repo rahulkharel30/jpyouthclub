@@ -15,12 +15,13 @@ p{
 /*Navigation Bar*/
 .brand-image{
     border-radius: 50%;
-    width: 100px;
-    height: 100px;
+    width: 70px;
+    height: 70px;
+    margin: 0;
 }
 .navigation-bar{
     background-color: #fff5eb/*#f0e4d7*/ ;
-    padding: 0 1rem;
+    padding: 0 0.5rem;
     font-family: 'Fira Sans', sans-serif;
     text-align: center;
 }
