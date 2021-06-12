@@ -24,8 +24,8 @@ p{
     font-family: 'Fira Sans', sans-serif;
     text-align: center;
 }
-.navbar-nav1{
-    margin-left: auto;
+td{
+    text-align: left;
 }
 .nav-link{
     margin: 0 10px;
