@@ -97,7 +97,10 @@ hr{
 }
 .fonticon{
     margin: 1.5rem 1rem;
-    color: #fff;
+    color: black;
+}
+.fonticon:hover{
+    background-color: #fff;
 }
 .batan{
     background-color: dimgray;
