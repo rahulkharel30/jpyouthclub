@@ -86,8 +86,8 @@ hr{
     border-style: inset none none;
 }
 .why-join{
-    padding-bottom: 0;
-    font-size: 2rem;
+    margin-bottom: 0;
+    font-size: 1.5rem;
 }
 /*Footer Section*/
 #footer{
@@ -97,7 +97,7 @@ hr{
 }
 .fonticon{
     margin: 1.5rem 1rem;
-    color: black;
+    color: #fff;
 }
 .batan{
     background-color: dimgray;
