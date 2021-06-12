@@ -67,7 +67,8 @@ td{
 }
 .member-image{
     width: 50%;
-    height: 50%
+    height: 50%;
+    border-radius: 100%;
 }
 #my-carousel{
     text-align: center;
