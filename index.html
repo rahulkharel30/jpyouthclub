@@ -17,19 +17,34 @@
     <body>
         <div class = "container-fluid">
             <!--Navigation-Bar-->
-            <nav class = "navbar navbar-expand-sm navbar-light bg-light navigation-bar">
+           <nav class = "navbar navbar-expand-md navbar-light bg-light navigation-bar">
                 <a class="navbar-brand"><img class = "brand-image" src = "images/icon.png" alt = "JP Club Logo"></a>
+                <button type = "button" class = "navbar-toggler" data-bs-target = "#id" data-bs-toggle = "collapse" aria-controls="id" aria-expanded = "false" aria-label = "Toggle navigation">
+                <span class = "navbar-toggler-icon"></span>    
+                </button>
+                <div class = "collapse navbar-collapse" id = "id">
                     <div class = "navbar-nav">
-                            <a class = "nav-link" href="gallery.html">Gallery</a>
-                       
-                            <a class = "nav-link" href="#membership">Get Membership</a>
-                   
-                            <a class = "nav-link" href="#my-carousel">Members</a>
-                
-                            <a class = "nav-link" href="#footer">Contact</a>
+                        <table>
+                            <tr>
+                                <td>
+                                    <a class = "nav-link" href="gallery.html">Gallery</a>
+                                </td>
+                                <td>
+                                    <a class = "nav-link" href="#membership">Get Membership</a>
+                                </td>
+                            </tr>
+                              <tr>
+                                <td>
+                                    <a class = "nav-link" href="#my-carousel">Members</a>
+                                </td>
+                                <td>
+                                    <a class = "nav-link" href="#footer">Contact</a>
+                                </td>
+                            </tr>
+                        </table>
+                   </div>
                    </div>
             </nav>
-            <hr>
             <!--Title Section-->
             <section id = "title">
                 <img class="jp-image" src="images/jp.jpg">
