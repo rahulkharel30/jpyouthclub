@@ -82,6 +82,13 @@ td{
     margin-bottom: 0;
     font-size: 1.5rem;
 }
+.submit-button{
+    border-color: #556052;
+    background-color: #556052;
+    font-family: 'Fira Sans', sans-serif;
+    color: #fff;
+    border-radius: 10%;
+}
 /*Footer Section*/
 #footer{
     text-align: center;
