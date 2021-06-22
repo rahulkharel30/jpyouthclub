@@ -66,6 +66,13 @@ td{
 .about-paragraph{
     font-size: 1.35rem;
 }
+.pramod-image{
+    display: block;
+    margin: 3rem auto 0;
+    width: 50%;
+    height: 50%;
+    border-radius: 100%;
+}
 .member-image{
     width: 50%;
     height: 50%;
